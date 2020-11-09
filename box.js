@@ -10,7 +10,7 @@ class Box{
      this.body = Bodies.rectangle(x,y,width,height,options);
      this.width = width;
      this.height = height;   
-     this.image = loadImage("evilball.png");
+     this.image = loadImage("evil box.png");
      World.add(world, this.body);
     }
     display(){
